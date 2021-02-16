@@ -1,0 +1,25 @@
+/* Resume styling */
+
+p {
+	font-size: 1.1rem
+}
+li {
+	font-size: 1.1rem
+}
+ul {
+	font-size: 1.1rem
+}
+
+
+.A4-attempt {
+	width: 75%;
+}
+.sub-heading1 {
+	font-size: 1.4rem;
+	text-align: center;
+}
+.sub-heading2 {
+	font-size: 1.3rem;
+	text-decoration: underline;
+}
+	
