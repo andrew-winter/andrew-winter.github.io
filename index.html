@@ -1,59 +1,56 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Andrew Winter</title>
-    <link rel="stylesheet" href="default_style.css">
-	<style type="text/css">
-      <!-- Set basic style to sans-serif -->
-      body {
-	    font-family: Helvetica, Verdana, sans-serif;
-      }
-	  img {
-	    height: 15%;
-		width: 15%;
-	  }
-	</style>
-  </head>
-  <body> 
-	<header>
-		<div class="topnav">
-          <a class ="active" href="index.html">About</a>
-		  <a href="code/index.html">Code</a>
-		  <a href="experience/index.html">Experience</a>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andrew Winter | About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="topnav">
+      <a class="active" href="index.html">About</a>
+      <a href="experience/index.html">Experience</a>
+      <a href="code/index.html">Code</a>
+    </nav>
+  </header>
+  <main>
+    <section class="simple-left">
+      <h1>Andrew Winter | Data Specialist</h1>
+    </section>
+    <section class="about">
+      <p>I am a data analyst in Los Angeles, CA. I code in <b>Python</b>, <b>R</b>, and <b>SQL</b>.</p>
+      <p>
+        I have <a href="experience/index.html">experience</a> in digital and television advertising media data 
+        management, health and ancillary insurance plan rates and benefits data, and student housing at UC Irvine.
+      </p>
+    </section>
+    <section class="objective">
+      <h3>Objective</h3>
+      <p>
+        Analyze public and proprietary data for meaningful insights, creating visualizations for data storytelling.
+        Use scripting languages like Python and R, visualization tools like Looker, Tableau, and Power BI, 
+        and multi-stakeholder collaboration to contribute to a values-driven, people-first organization.
+      </p>
+    </section>
+    <section class="updates">
+      <h3>Recent Updates</h3>
+      <ul id="updates-list"></ul>
+    </section>
+    <section class="contact">
+      <h4>Contact</h4>
+      <p>Email: andorwinter@gmail.com</p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 Andrew Winter. All rights reserved.</p>
+	<!-- Need to size photos correctly
+		<div class="box">
+		<img src="campus_square.jpg" alt="Casual picture">
+		<img src="professional_square.jpg" alt="Professional picture">
 		</div>
-	</header>
-	<br>
-	<!-- Main heading for the page -->	
-    <h2>Andrew Orlino Winter</h2>
-	<br>
-		<main>
-			<article>
-				<div class="simple-center-left">
-					<br>
-					<p>I am a Data Management Analyst with Icon Media Direct, working on advertisement airings and responses for television and other media. My recent professional <a href="experience.html">experience</a> was in health insurance technology, maintaining product rating and benefits data for a quoting and enrollment SaaS (software-as-a-service). Before that, I worked in student housing for three and a half years in various roles.</p>
-					<br>
-					<p>I code in R and sometimes Python for <a href="https://github.com/andrew-winter">projects</a> at home and at work, and I have some experience writing SQLite and SQL Server queries. At work, I am learning more about Tableau and SAS.
-					</p>
-				</div>
-				<br>
-			    <div class="simple-center-left">
-				    <p><b>Objective</b>
-				        <br>Communicate meaningful insights analyzing public and proprietary data,
-				        <br>build domain knowledge and technical skills,
-				        <br>and contribute to a values-driven organization. 
-				    </p>
-				</div>
-			</article>	
-		</main>
-	</div>
-		<footer>
-			<div class="box">
-			    <img src="campus_square.jpg" alt="Casual picture">
-				<img src="mask_square.jpg" alt="Mask picture">
-				<img src="professional_square.jpg" alt="Professional picture">
-				<img src="mountain_square.jpg" alt="Mountain picture">
-			</div>
-		</footer>
-	</body>
+	-->
+  </footer>
+  <script src="script.js"></script>
+</body>
 </html>
